@@ -1,0 +1,239 @@
+<!-- TODO 1: Create the HTML Boilerplate -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+  </head>
+
+  <body>
+    <!-- TODO 2: Add Your previous projects' HTML into the public folder / DONE-->
+    <!-- TODO 3: Take screenshots of your project previews and add the images to the images folder / DONE-->
+    <!-- TODO 4: Add titles/subtitles etc. -->
+    <h1>Joseph Abaya's Refresher Portfolio</h1>
+    <h2>Practicing Web Development</h2>
+    <p>
+      I'm doing a refresher course with the help of Dr. Angela Yu's Course, as i
+      haven't done any web development features or anything related to it in the
+      past 2 years.
+    </p>
+
+    <p>Below are some of the things tackled in this HTML course.</p>
+    <hr />
+    <!-- TODO 5: Add a link to the project pages -->
+    <h3>
+      <a href="./public/movie-ranking.html">Movie Ranking Project</a><br />
+    </h3>
+    <!-- TODO 6: Add images to show the project previews
+    HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
+    https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
+    <img src="./assets/images/movie-ranking.png" height="200" /><br />
+    <h3>
+      <a href="./public/birthday-invite.html">Birthday Invite Project</a><br />
+    </h3>
+    <img src="./assets/images/birthday-invite.png" height="200" /><br />
+    <hr />
+    <!-- TODO 7: Add the Contact Me and About Me page links -->
+    <a href="./public/about.html">About Me</a>
+    <a href="./public/contact.html">Contact Me</a>
+
+    ////////////////////////////////////////
+    
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="#tools">Tools</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Let's Work</a>
+            </li>
+  
+            <!-- 
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li> -->
+  
+            <!-- 
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li> -->
+          </ul><!-- 
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form> -->
+        </div>
+      </nav>
+  
+  
+  
+  
+      <div class="text-center p-5">
+        <img class="photo" width="200" src="./profile photo.jpg" class="rounded-circle" alt="">
+      </div>
+  
+      <!-- <img src="./Joseph.PNG" class="rounded mx-auto d-block" alt="..."> -->
+  
+      <div class="container p-1">
+        <div class="row justify-content-center">
+          <h2 class="name">JOHNMARC JOSEPH ABAYA</h2>
+        </div>
+      </div>
+  
+  
+      <div class="container p-1">
+        <div class="row justify-content-center">
+          <h4>Full Stack Web Developer</h4>
+        </div>
+      </div>
+  
+  
+      <div class="d-flex justify-content-center p-1"> <!-- p-1 is for padding inside class-->
+        <p class="text-justify">
+          Spontaneous, Outgoing, and loves to learn new things and meet new people
+        </p>
+      </div>
+  
+  
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center p-3 ">
+            <h2 id="projects">Projects</h2>
+          </div>
+  
+          <div class="p-3 col-12 col-lg-6 order-lg-1">
+            <img src="./API.jpeg" class="img-fluid">
+          </div>  
+  
+          <div class="text-center p-3 col-12 col-lg-6 order-lg-0">
+            <h4 class="p-4">(E-Commerce) API</h4>
+            <p class="text-justify">A Ecommerce API with the following technologies: Node.js/Express.js, MongoDB</p>
+            <p>Functionalities:
+              <ul class="text-left">
+                <li>User registration and login/authentication</li>
+                <li>Retrieve user details</li>
+                <li>Setting of user as admin (admin)</li>
+                <li>Retrieve all/ single products (Admin only)</li>
+                <li>Admin can Create, Update and Archive Products</li>
+                <li>User can create order and retrieve their orders</li>
+                <li>Admin can retrieve all orders</li>
+                <li>Tested via Postman</li>
+                <li>Hosted via Heroku</li>
+              </ul> 
+            </p>   
+          </div> 
+        </div>  
+  
+        <div class="row">
+          <div class="p-3 col-12 col-lg-6">
+            <img class="center" src="./E-COMMERCE.jpg" class="img-fluid">
+          </div>
+  
+          <div class="text-center p-3 col-12 col-lg-6">
+            <h4 class="p-3">BUDGT a Budget Tracking Application</h4>
+            <p class="text-justify">A Full Stack (MERN) Finance tracking application with CRUD features for budget entries and categories.</p>
+            <ul class="text-left">
+                <li>Guests registration and user authentication</li>
+                <li>Retrieval of user categories and transactions</li>
+                <li>Creation, update, and deletion of categories and transactions</li>
+            </ul>
+  
+            <!-- <a class="button" href="https://guarded-plateau-57068.herokuapp.com/login" class="btn btn-block btn-success" target="_blank">Go to Site</a> -->
+            
+            <!-- <button onclick="https://guarded-plateau-57068.herokuapp.com/login" class="btn btn-block btn-success" target="_blank">
+               Go to Site
+            </button> -->
+            <form method="get" action="https://guarded-plateau-57068.herokuapp.com/" target="_blank">
+              <button type="submit" class="btn btn-block btn-success">Go to Site</button>
+            </form>
+  
+  
+          </div>
+        </div>
+      </div>
+  
+  
+      <h2 class="text-center p-2" id="tools">Tools</h2>
+  
+      <div class="container">
+        <div class="d-flex flex-wrap justify-content-center col-lg-12">
+            <img width="80" src="./assets/images/logo-css3.png" alt="">
+            <img width="80" src="./assets/images/logo-expressjs.png" alt="">
+            <img width="80" src="./assets/images/logo-git.png" alt="">
+            <img width="80" src="./assets/images/logo-gitlab-ci-cd.png" alt="">
+            <img width="80" src="./assets/images/logo-heroku.png" alt="">
+            <img width="80" src="./assets/images/logo-html5.png" alt="">
+            <img width="80" src="./assets/images/logo-javascript.png" alt="">
+            <img width="80" src="./assets/images/logo-mongodb.png" alt="">
+            <img width="80" src="./assets/images/logo-nodejs.png" alt="">
+            <img width="80" src="./assets/images/logo-postman.png" alt="">
+            <img width="80" src="./assets/images/logo-react.png" alt="">
+            <img width="80" src="./assets/images/logo-rest.png" alt="">
+          </div>
+        </div>
+      </div>
+  
+      <div class="container">
+        <h3 class="text-center p-3" id="contact">Contact</h3>
+          <div class="container text-center p-1">
+            <a href="https://www.linkedin.com/in/joseph-abaya-9a8690143/" target="_blank">
+              <img src="https://img.icons8.com/fluent/60/000000/linkedin.png"/>
+            </a>
+            <a href="https://www.fb.com/jozephabaya" target="_blank">
+              <img src="https://img.icons8.com/color/60/000000/facebook.png"/></i>
+            </a>
+            <a href="https://l.instagram.com/?u=https%3A%2F%2Fbeacons.ai%2Fprivatevictories&e=AT1jZnvo9UYxFyk6FsKCynwE0gOS3jzaY0kFAXVKVftip2lmW7NFY2RW0X4CvEqc_OtNs8D2qITgHUuvUKwzTkF99zD-iA-mEmgXI9s" target="_blank">
+                <img width="60" src="https://img.icons8.com/?size=512&id=8wMnU2UIhByE&format=png"/>
+            </a>
+      </div>
+  
+      <div class="container mb-5">
+        <form action="https://formsubmit.co/johnmarcjosephabaya@gmail.com" method="POST">
+  
+          <div class="form-group" >
+            <label for="name">Full Name</label>
+            <input type="text"  name="fullName" class="form-control" placeholder="ex. Juan Dela Cruz" required>
+  
+            <label for="email">Email Address</label>
+            <input type="text"  name="email" class="form-control" placeholder="name@yourdomain.com" required>
+  
+            <label for="messages">Message</label>
+            <textarea type="text" name="message" class="form-control" rows="6" required></textarea>
+  
+            <input type="hidden" name="_next" value="https://josephabaya.gitlab.io/web-portfolio/pages/thanks.html">
+  
+            <input type="hidden" name="_captcha" value="false">
+          </div>
+  
+          <button type="submit" value="submit" class="btn btn-success btn-block">Send</button>
+  
+  
+                    <!-- <a href="mailto:someone@example.com">Send email</a> -->
+        </form>
+      </div>
+  </body>
+  
+</html>
